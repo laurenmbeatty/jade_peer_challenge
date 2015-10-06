@@ -1,0 +1,17 @@
+[
+  {"quote": "Brunch with Meryl",
+    "id":"0",
+    "path": "/images/brunch.jpg"},
+  {"quote": "Haven't Seen 'em",
+    "id":"1",
+    "path": "/images/condi.jpg"},
+  {"quote": "Zuckerberg dis",
+    "id":"2",
+    "path": "/images/facebook.jpg"},
+  {"quote": "Hey, girl",
+    "id":"3",
+    "path": "/images/gosling.jpg"},
+  {"quote": "My turn next, Barack",
+    "id":"4",
+    "path": "/images/runningworld.jpg"}
+]

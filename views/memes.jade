@@ -1,0 +1,16 @@
+extends layout
+
+block title
+   title Memes
+block content
+   header
+      #heading Texts from Hillary
+   div(ng-app='myApp')
+      h1 Memes
+      #memes(ng-controller='MemeController')
+         for meme in injectedMemes
+            h2="{{caption_text"+meme.id+"}}"
+            img(src=meme.path)
+            form
+               input(type="text", ng-model="caption_text"+meme.id, value='#{meme.quote}')
+    footer
